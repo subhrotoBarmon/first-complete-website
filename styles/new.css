@@ -5,11 +5,12 @@
   font-variation-settings:
     "wdth" 100;
 }
-header{
+.header{
     background-color:bisque;
     /* align-items: center; */
     /* margin: 0 200px; */
     /* border-radius: 10px; */
+    text-align: center;
 }
 
 /* nav styles */
@@ -19,6 +20,7 @@ nav{
     justify-content: space-between;
     margin: 0 200px 0 250px;
 }
+
 nav img{
     width: 50px;
     height: 50px;
@@ -29,6 +31,7 @@ nav img{
     border: 2px solid blueviolet;
     border-radius: 5px;
 }
+
 .nil{
     color: rgb(47, 24, 216);
 }
@@ -67,4 +70,48 @@ nav li a{
 }
 .para{
     color: rgb(47, 45, 45);
+}
+/* section styles */
+.section{
+    text-align: center;
+    margin:50px 200px;
+    padding: 10px 50px ;
+}
+.contant{
+    font-size: smaller;
+}
+.about-items{
+    display: flex;
+    gap: 20px;
+    font-size: x-small;
+    
+}
+.about-item .email{
+    color:darkgray;
+}
+.about-item .name{
+    color: darkslategrey;
+    /* font-size:small; */
+}
+.section img{
+    height: 3 0px;
+    width: 30px;
+    margin:5px 800px 0px 10px;
+}
+.section-card{
+    text-align: center;
+    align-items: center;
+    margin: 0 100px;
+}
+.Fcard{
+    display: flex;
+    gap: 20px;;
+}
+.Fcard button{
+    background-color: #FD6E0A;
+    color: aliceblue;
+    /* cursor: pointer; */
+}
+button :hover{
+    animation: 0.5s;
 }
